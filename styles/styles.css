@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(220, 248, 248);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+div,
+a {
+    background-color: rgb(175, 253, 227);
+}
+
+img {
+    margin-left: 25%;
+}
