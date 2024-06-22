@@ -1,3 +1,8 @@
+body {
+  display: flex;
+  gap: 30px;
+}
+
 .recipe-card {
   width: 500px;
   margin-left: 200px;
@@ -17,15 +22,6 @@
   width: 450px;
   height: auto;
   margin: 0 25px;
-}
-
-.ingredients {
-  background-color: rgb(240, 114, 114);
-  color: white;
-  margin: 15px 25px 25px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: 25px;
 }
 
 .dir {
@@ -52,6 +48,7 @@
 .info-card {
   margin: 25px;
   border: 2px solid rgb(122, 20, 20);
+  background-color: rgb(255, 245, 245);
 }
 
 .bar {
@@ -84,4 +81,23 @@
   color: rgb(122, 20, 20);
   display: inline-block;
   font-weight: bold;
+}
+
+.card {
+  margin-top: 50px;
+  width: 300px;
+  height: fit-content;
+  flex: none;
+  background-color: rgb(240, 114, 114);
+  box-sizing: border-box;
+}
+
+.card h2 {
+  margin-left: 20px;
+  color: rgb(122, 20, 20);
+}
+
+.ingredients {
+  line-height: 25px;
+  color: white;
 }
