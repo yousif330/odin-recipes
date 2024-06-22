@@ -1,0 +1,87 @@
+.recipe-card {
+  width: 500px;
+  margin-left: 200px;
+  border: 2px solid rgb(122, 20, 20);
+  background-color: rgb(255, 245, 245);
+  display: inline-block;
+}
+
+.title {
+  text-align: center;
+  color: rgb(122, 20, 20);
+  background-color: rgb(240, 114, 114);
+  margin: 15px 25px;
+}
+
+.dish {
+  width: 450px;
+  height: auto;
+  margin: 0 25px;
+}
+
+.ingredients {
+  background-color: rgb(240, 114, 114);
+  color: white;
+  margin: 15px 25px 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+
+.dir {
+  margin: 10px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(122, 20, 20);
+  background-color: rgb(240, 114, 114);
+  display: inline-block;
+}
+
+.steps {
+  background-color: rgb(240, 114, 114);
+  margin: 15px 25px 25px;
+  padding: 7px;
+  color: white;
+}
+
+.steps h3 {
+  margin: 5px;
+  color: rgb(122, 20, 20)
+}
+
+.info-card {
+  margin: 25px;
+  border: 2px solid rgb(122, 20, 20);
+}
+
+.bar {
+  height: 15px;
+  background-color: rgb(240, 114, 114);
+}
+
+.box {
+  width: 100px;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.box h4 {
+  margin: 0;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+
+.box p {
+  margin-top: 5px;
+}
+
+.home {
+  margin: 0 25px 25px;
+  background-color: rgb(240, 114, 114);
+  text-decoration: none;
+  color: rgb(122, 20, 20);
+  display: inline-block;
+  font-weight: bold;
+}
